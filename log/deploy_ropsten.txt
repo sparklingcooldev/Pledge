@@ -1,0 +1,54 @@
+pledge$ yarn deploy-ropsten
+yarn run v1.22.5
+$ npx truffle migrate --reset --network ropsten
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_deploy.js
+===========
+Pledge deployment started at Mon Dec 20 2021 21:21:26 GMT+0700 (Indochina Time)
+Deployer account: 0x40a068Fa474E333829f6eaC7223725B4CC88982e, balance: 11.896929800285217027 ETH
+
+   Deploying 'Pledge'
+   ------------------
+   > transaction hash:    0x2fac71bad7bdce7151449aa0dce617251f778880359ed46f19abf7d6b6dfc7bc
+   > Blocks: 0            Seconds: 4
+   > contract address:    0x5223AB2D5D356f5B49dc6D45A847B7b14d68C08c
+   > block number:        11657857
+   > block timestamp:     1640010088
+   > account:             0x40a068Fa474E333829f6eaC7223725B4CC88982e
+   > balance:             11.894201530285217027
+   > gas used:            1364135 (0x14d0a7)
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00272827 ETH
+
+   Pausing for 3 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 11657859)
+   > confirmation number: 2 (block: 11657860)
+   > confirmation number: 3 (block: 11657861)
+Pledge deployment ended at Mon Dec 20 2021 21:22:25 GMT+0700 (Indochina Time)
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00272827 ETH
+
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.00272827 ETH
+
+
+Done in 69.50s.
